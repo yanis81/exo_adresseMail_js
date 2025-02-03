@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    gap: 50px;
+}
+
+#displayGraphique{
+    width: 50%;
+    height: 50%;
+}
+
+#displayEmail{
+    width: 50%;
+    height: 50%;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+li:nth-child(3n+1){
+    background-color: #ccc;
+}
+li:nth-child(3n+2){
+    background-color: #eee;
+}
+
