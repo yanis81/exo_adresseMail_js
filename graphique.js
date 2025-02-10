@@ -1,4 +1,4 @@
-function emailGraphique() {
+function emailGraphique() { // Fonction pour crée et afficher le graphique 
     fetch('data.json')
     .then(response => response.json())
     .then(data => {
